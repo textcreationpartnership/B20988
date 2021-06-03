@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Curious enquiries being six brief discourses.</title>
+         </titleStmt>
+         <extent>Approx. 47KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B20988</idno><idno type="EEBO-CITATION">8648060</idno>
+  <idno type="VID">204306</idno>
+  <idno type="EEBO-PROQUEST">2248515941</idno>
+  
+            <idno type="STC">Wing C7678</idno>
+            <idno type="OCLC">08648060</idno>
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-e"/>
+            <note>(EEBO-TCP ; phase 2, no. B20988)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 204306)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1254:18)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Curious enquiries being six brief discourses.</title>
+               </titleStmt>
+               <extent>[4], 24 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed, and are to be sold by Randal Taylor,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1688.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"Viz. I Of the longitude, II. The tricks of astrological quacks, III. Of the depth of the sea, IV. Of tabacco, V. Of Europes being too full of people, VI. The various opinions concerning the time of keeping the Sabbath."</note>
+                  <note>Reproduction of original in the Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term type="topical_term">English essays --  Early modern, 1500-1700.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2014-02 </date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2014-04 </date>
+            <label>Anne Simpson </label>Sampled and proofread </change>
+         <change>
+            <date>2014-04 </date>
+            <label>Anne Simpson</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="license">
+            <pb facs="tcp:204306:1"/>
+            <pb facs="tcp:204306:2"/>
+            <p>Licensed, <hi>Septemb.</hi> 21. 1687.</p>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:204306:2"/>
+            <p>CURIOUS ENQUIRIES. BEING SIX <hi>Brief Discourses,</hi> VIZ.</p>
+            <list>
+               <item>I. <hi>Of the Longitude.</hi>
+               </item>
+               <item>II. <hi>The Tricks of Astrological Quacks.</hi>
+               </item>
+               <item>III. <hi>Of the Depth of the Sea.</hi>
+               </item>
+               <item>IV. <hi>Of Tobacco.</hi>
+               </item>
+               <item>V. <hi>Of</hi> Europes <hi>being too full of People.</hi>
+               </item>
+               <item>VI. <hi>The various Opinions concerning the</hi> Time <hi>of Keeping the Sabbath.</hi>
+               </item>
+            </list>
+            <p>
+               <hi>Semper Ego Auditor tantum: Nunquamne Reponam?</hi> Juven.</p>
+            <p>
+               <hi>LONDON:</hi> Printed, and are to be Sold by <hi>Randal Taylor,</hi> near Stationers Hall, 1688.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:204306:3"/>
+            <pb facs="tcp:204306:3"/>
+            <head>TO THE READER.</head>
+            <p>VVHen Men write, let it be on whatsoever Subject, the Common Way is, to have Recourse to a Multitude of Old Authors, and there to pick out some Select Sentences for their Purpose, and so Methodically to dispose of them, by entailing one Old Say<g ref="char:EOLhyphen"/>ing upon another; and if they will not exactly fit, then Impertinently to raise some Discourse of their own on the next Sentence they have mind to Hale in and
+<pb facs="tcp:204306:4"/>so confidently to Quote it, Book and Page, for the Proof of the same. These streams of Writings please such Readers, as have never before Drank at the Foun<g ref="char:EOLhyphen"/>tains; and generally as if it was all the Writers own, pass with Approbation, or Dispraise, according to his Ingenuity in contriving the Method. But here, Rea<g ref="char:EOLhyphen"/>der, in these following Sheets, you will find what is wholly New, and nothing more; they are a sort of <hi>Essays,</hi> which, besides the putting some abler Pen upon the bringing of them to Perfection, may (for ought I know) do some good in the World. As for Instance, That of the Depth of the <hi>Sea,</hi> wherein I have laid down a Contrivance to Sound it in the deepest Place. I am not so Self-conceited to say Positively, that that Way will come in Ʋse: But it is highly Probable it may,
+<pb facs="tcp:204306:4"/>because at present the Seamen have no manner of Contrivance to find the Bottom. And any Man that knoweth any thing of such Matters, cannot be Ignorant how highly Ʋseful such an Experiment would prove to be. As for that Discourse with the <hi>Astrologer,</hi> I deride no Man therein, my meaning in the Writing of it was, to persuade Poor, Honest, deluded People, rather to trust in <hi>God Almighty,</hi> than in the Words of an <hi>Ignorant Star-Ga<g ref="char:EOLhyphen"/>zer,</hi> which I know too many do; and that there are such Men here in <hi>London,</hi> Hun<g ref="char:EOLhyphen"/>dreds that have been Cheated by them, if they were not ashamed to lay open their Follies, would Witness for me: And I cannot chufe but say, it is a Thousand pities such an <hi>Excellent Art</hi> should be abused by such <hi>Ignorant Pretenders</hi> to it. In the other <hi>Enquiries</hi> too, I hope you
+<pb facs="tcp:204306:5"/>may find something that may please you, however seeing all's New, I will not go the old way of Begging your liking of it: But flatly Conclude, If you like it, Read it; if not, lay it down again, and so</p>
+            <closer>
+               <salute>Farewel.</salute>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:204306:5"/>
+            <head>CURIOUS ENQUIRIES.</head>
+            <div type="part">
+               <head>CONCERNING THE LONGITUDE.</head>
+               <p>MAny Men have had many Whimseys about this Longitude, and such indeed they have only pro<g ref="char:EOLhyphen"/>ved: I have read formerly in some Old (I have forgot now what) Book, That if you fill a Glass of Water full to the Brim, and watch the time of the New, or Full Moon, the Water of it self at that very instant of time, would run over. Well, thinks I, by this at least we can discover our Longitude at Sea twice a Month; and very probably may give a good guess at it daily, by obser<g ref="char:EOLhyphen"/>ving the Increase and Decrease of the Water, and allowing for the Condensation and Rarefaction of the Air, observed by a Thermometer; but when I tried at several Full Moons, I never observed the Water to stir; so then I concluded that
+<pb n="2" facs="tcp:204306:6"/>to be false. Afterwards, I considered with my self, that the Moon, the swiftest of all the Planets, making Revolution round the Earth in Twenty nine Days, might discover to us by her daily departure from the Sun, or some fixed Star, by Observation, how much we had Increased, or Diminish<g ref="char:EOLhyphen"/>ed, her true Departure, which difference would be our Lon<g ref="char:EOLhyphen"/>gitude; but this way is too Minute, unless we had Instru<g ref="char:EOLhyphen"/>ments that would observe an Altitude to a minute or less: But then I thought that the Moon very often Eclipses some Star or other, and if the true time of these Eclipses were exactly Calculated with the beginning and ending of them, by an able Astronomer for the Meridian of <hi>London,</hi> at Sea we might by the Stars find the time of Night nigh enough to discover our Longitude indifferently well thereby; but here's the Case, when the Moon is any thing nigh the Full either before or after, her Light obscures the light of the Star she approaches too, so that you cannot see it, unless it be a Star of the first or second Magnitude; but whether this may be holpen with Glasses or not, I cannot tell, I leave it to be judged on by Wiser men.</p>
+               <p>Sir <hi>Kenelm Digby</hi> in his Discourse of the Sympathetick Powder, tells us how he made Mr. <hi>Howel</hi> start, upon his putting a Bloody Garter, with which Mr. <hi>Howel</hi>'s wounded Hand had been bound up withal, into a Bason of Water mixed with that Powder: If such a starting could be made to any Inferiour Creature at a great distance, and by often doing it, it would not in two or three months lose its power, we might at Sea with great Ease and Pleasure know when the Sun was upon the Meridian at <hi>London,</hi> or any other appointed time; and consequently by the diffe<g ref="char:EOLhyphen"/>rence of Time, the difference of Longitude. Fye! says one, or other, you would not sure put a Dog to the mi<g ref="char:EOLhyphen"/>sery of having always a Wound about him to serve you, would you? Why not as well as to keep a Dog two or three days together starving, that he may give his Master an hour or two's Pleasure the better after it. Or for a Sea<g ref="char:EOLhyphen"/>man to put out his right Eye to serve the Merchant: As
+<pb n="3" facs="tcp:204306:6"/>before the Back-Quadrants were Invented, when the Fore-staffe was most in use, there was not one Old Master of a Ship amongst Twenty, but what was Blind in one Eye by daily staring in the Sun to find his Way.</p>
+            </div>
+            <div type="dialogue">
+               <head>A DIALOGUE BETWEEN THE ENQUIRER AND AN ASTROLOGER.</head>
+               <p>I Hope no Learned Artist in the Noble Science of Astro<g ref="char:EOLhyphen"/>logy, will be offended if I tell an Innocent, Harmless Story (not much varying from the Truth) of an Impudent, Illiterate Intruder into it; for it's well known, the Nation swarms with this sort of Caterpillers. Not long since, walk<g ref="char:EOLhyphen"/>ing out to take the Air, near the Fields, I saw a Paper hanging up at a Door, with this Superscription on it:</p>
+               <p>
+                  <hi>Here Liveth— Studient in Astrology and Physick, who by the Grace of God, Resol<gap reason="illegible" resp="#murp" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>eth all manner of Questions per<g ref="char:EOLhyphen"/>taining
+<pb n="4" facs="tcp:204306:7"/>to that Noble and Sublime Art: He also Calculateth Nativities, and Cureth all manner of Diseases in the Bodies of Men, Women, and Children. Here is also</hi> Orum Potable, <hi>and</hi> Elixar Salutis <hi>to be Sold.</hi> —</p>
+               <p>I happened to know the Name, for which I have left a Blank here, and the false Spelling confirming me, that it was the same Person I formerly knew, I went in to see what Trade he drove, and found him in his Chamber reading a little Book: After the usual How-d'ye's were over, thus we began our Discourse.</p>
+               <sp>
+                  <speaker>Enquirer.</speaker>
+                  <p>
+                     <hi>Pray Doctor, what Book is that you were Reading in when I came in?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doctor.</speaker>
+                  <p>Why I'll tell you, this Book is the best Book in Astrology, in my mind that ever was Wrote. I engage a Man need never have any other Book by him and answer all Questions in Astrology, nay and Calculate Nativities too: And then for Palmestry, and Phisiognomy, here is your Cardiac, your Cephalick, your <hi>Venus</hi> Girdle, and I know not what: That you may, that you may see, of what Nature Man is of, as well as if you were in his Guts.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>That's a brave Book indeed! but it did not Write it self: Pray who was the Author, or does he conceal his Name?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>The Author was a Priest one <hi>John Indagine,</hi> a cun<g ref="char:EOLhyphen"/>ning Fellow I'll warrant you.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>John Indagine! <hi>I have read it, and repent the time lost in doing so, for I look'd upon it to be a Foolish, Idle thing, not worth the Perusal of any Man, much more an Artist.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>That's because you did not understand It; why I'll tell you a Hundred Men may Read it, and Read it again and never understand what is in it, unless they were born to be Astrologers.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>Well, but what think you of</hi> Ptolomy, Hermes, Argol, Regiomentanus, Leovitius, Firmicus, Guido, Bonatus, <hi>or such as these.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Hang'em a parcel of Outlandish Dogs, they were all for the Theory, there was none of 'em had any Practise, and I tell you one years Practice is better then Reading all
+<pb n="5" facs="tcp:204306:7"/>the Books in the World: When first I Studied this Art I was thinking of your musty, rusty, Fellows you speak of; and considering how I should do to get them in English: Who should come into Drink, (for between you and I, I then sold a Cup of Ale) but an old Astrologer that used to drink often at my House; and I up and told him that I was Studying Astrology, and ask'd him where I might get <hi>Argol,</hi> for I had heard much talk of him: So Sir, sayes he to me, you may go buy <hi>Argol,</hi> and others, but when you have done you will but lay out your Mony in vain: For I'll maintain it, there's more in <hi>Lillyes</hi> Instruction, then in them all.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>Instruction, Introduction you mean.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Well Instruction, or Introduction, what's the dif<g ref="char:EOLhyphen"/>ference, 'tis all one to me: But as I was telling you, I took the Old mans counsel, and bought the Book, and in a Months time, I could Erect a Figure and give Judgment too, as well as <hi>Lilly</hi> himself for as I told you before, and Mr. <hi>Lilly</hi> says so too, an Astrologer must be born so, not made one.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>But you could not learn so much Astronomy in that time, as to Calculate the true places of the Planets.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>No, nor I never intend to trouble my Brains about it, when I can buy an Ephemeris for six Pence.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>But what if there should be Mistakes in the Author or Printer?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>P'shaw, a handful of Minutes, or three or four De<g ref="char:EOLhyphen"/>grees, signifies nothing in a Horary Question.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>But in a Nativity much?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>I never use the old tedious Way, (though I un<g ref="char:EOLhyphen"/>derstand it perchance as well as another does) of directing the <hi>Helygiacals</hi> to their <hi>Promittors,</hi> nor finding out the <hi>Al<g ref="char:EOLhyphen"/>muten, Alchochoden,</hi> nor such like Trumpery in Nativities. I make no Speculums nor Fidle-fadles, not I.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>Why Doctor, you begin to Conjure now, I think.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>I can talk as big Words as the best of them: But as I was telling of you, my way in Nativities is by <hi>Indagine,</hi> where I need only look in what Sign the Sun was in when the party was Born; which is easily known, you know
+<pb n="6" facs="tcp:204306:8"/>without Mistakes, and then the Book of Knowledge is a good easie Book.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>Ay, and the</hi> Dutch <hi>Fortuneteller, that which the Gypsies use.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Now you jest, you know that is only Chance.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>So is all the rest, without being certain of the Planets places.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>I don't know, I do as the rest: Why at your rate, there is not one in twenty that Practise, an able Astrologer; nay, of all my Acquaintance, and I know a great many Astrologers, there is not one that can Calculate the Planets places exactly.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>But I know some that can very well, although Mr.</hi> Lilly <hi>himself could not, if Sir</hi> George Wharton <hi>say true.</hi>
+                  </p>
+                  <p>Here his Servant coming up interrupted us, and told him, there was a Gentlewoman below desired to speak with him. Bid her walk up, says he to the Boy: And as for you, Sir, I desire you will be plea<g ref="char:EOLhyphen"/>sed to walk in the next Room till her Question be over, for Women, you know, are shy, and perhaps she may be unwilling to propound her Question be<g ref="char:EOLhyphen"/>fore Witness. So into the next Room went I: Where by the help of a little Window in the Parti<g ref="char:EOLhyphen"/>tion, I could see the Woman entring into the Doctor, and hear plainly their whole Discourse, which take as followeth.</p>
+               </sp>
+               <sp>
+                  <speaker>Woman.</speaker>
+                  <p>
+                     <hi>Sir, I am come to you about a small matter: My Husband, poor Man, is very sick, and I am afraid will hardly Live; and it hath been always my Prayers, that I might die before him. Now, Sir, I am sure you can tell which of us will die first?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>That's your Question, Whether you or your Hus<g ref="char:EOLhyphen"/>band will die first? Pray sit down, I'll step into my Study
+<pb n="7" facs="tcp:204306:8"/>and Erect the Figure, and give Answer immediately.</p>
+               </sp>
+               <sp>
+                  <speaker>Wom.</speaker>
+                  <p>
+                     <hi>Thank you good Sir.</hi>— Here the Doctor withdrew into his Study, and after a little time, returns with his Scheme in his Hand.</p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>You say, Mistress, your Husband is sick, of what Distemper is he sick, I pray?</p>
+               </sp>
+               <sp>
+                  <speaker>Wom.</speaker>
+                  <p>
+                     <hi>Truly, Sir, I believe it is a kind of a Consumpti<g ref="char:EOLhyphen"/>on, and a Weakness in Nature, with a Pain in his Back: For I do protest to you, as I am an Honest Woman, I have had no</hi> Good <hi>from him as an Husband these two Months. And more, Sir, I am afraid he is a little Troubled in Mind, because he often tells me of a Journey-man of ours, that Lodgeth in our House; for my Husband is a Shoemaker.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Stay, let me see, here's <hi>Scorpio</hi> ascends, <hi>Taurus</hi> on the seventh, <hi>Venus</hi> in the sixth House: Yes, your Husband is sick, and because <hi>Aries</hi> is a Fiery Sign he is sick of a Con<g ref="char:EOLhyphen"/>sumption, and I believe he will die of it.</p>
+               </sp>
+               <sp>
+                  <speaker>Wom.</speaker>
+                  <p>
+                     <hi>Oh, dear Doctor, pray don't tell me so for a World.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>I must tell you what the Stars tell me: You would not have me tell a Lye, would you?</p>
+               </sp>
+               <sp>
+                  <speaker>Wom.</speaker>
+                  <p>
+                     <hi>Oh no! Let me have the truth on't, though it be never so bad: Must it then be so that I shall out-live my poor Husband?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>You need not doubt it.</p>
+               </sp>
+               <sp>
+                  <speaker>Wom.</speaker>
+                  <p>
+                     <hi>God's will be done: But can you tell me, Sir, whether ever I shall Marry again, or not?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>That's another Question, now therefore if I answer it, I expect to be paid for two Questions.</p>
+               </sp>
+               <sp>
+                  <speaker>Wom.</speaker>
+                  <p>
+                     <hi>Look you, Sir, there is a Shilling for your first Que<g ref="char:EOLhyphen"/>stion; and truly, Sir, I have out Sixpence more about me, which I will give you with all my heart, for this last Question, for I long to know. Pray don't stand with me now, for I shall come again and make it good to you, and shall send a great many of my Neighbours.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Well, upon that condition I tell you, you shall Marry again.</p>
+               </sp>
+               <sp>
+                  <speaker>Wom.</speaker>
+                  <p>
+                     <hi>Oh dear, Why shall I so! But what kind of Man is he, pray Doctor? And what Trade? How Old may he be?</hi>
+                  </p>
+               </sp>
+               <pb n="8" facs="tcp:204306:9"/>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>For his Features the man is likely enough, but a young man, and his Trade is something about Leather, he Lives very nigh the place where you do now, if not in the same House.</p>
+               </sp>
+               <sp>
+                  <speaker>Wom.</speaker>
+                  <p>
+                     <hi>Say no more, say no more, on my Conscience you have hit the Mark. Indeed, Sir, you are a brave Man. I have been with many Astrologers in my time, and never could meet with any that Answered so pat to every thing as you do: But do you think we shall Live lovingly together, and which of us two shall die first?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>I can Answer you no more now, unless I erect a new Scheme, for the Face of the Heavens is altered since you came in.</p>
+               </sp>
+               <sp>
+                  <speaker>Wom.</speaker>
+                  <p>
+                     <hi>Your servant Sir, I'll trouble you no farther now, but I shall come again shortly: Fare you well, Sir, I shall blaze your Name abroad, for the best</hi> Astrologer <hi>in the three King<g ref="char:EOLhyphen"/>doms.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Your servant Mistress. And now the Doctor and I came together again.</p>
+               </sp>
+               <sp>
+                  <speaker>Enquirer.</speaker>
+                  <p>
+                     <hi>How did you find by your Figure, Doctor, that her Husband was sick?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doctor,</speaker>
+                  <p>Because she told me so.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>But how did</hi> Venus <hi>in</hi> Aries <hi>signifie a Consumption?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>D'ye think I was an Ass, to tell her any other Disease, when she told me before it was a Consumption.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>Right, and so she told you the Answer to her Sixpenny Questions, before she ask'd it when she spoke of the Journey-man Shoemaker. But this Figure was not Radical, and Astrologers say, 'tis dangerous to give an Answer when</hi> Scorpio <hi>ascends.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>A Figure is always Radical to me, when I can get a Shilling by it: And as for <hi>Scorpio,</hi> they say 'tis found out now lately (since some of our best Astrologers have had that Sign ascending at their Nativities) that <hi>Scorpio</hi> is no such deceitful Sign as the Ancients accounted him; but ra<g ref="char:EOLhyphen"/>ther the most propitious Sign in the Heavens.</p>
+               </sp>
+               <pb n="9" facs="tcp:204306:9"/>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>Let me see the Figure a little.— I wonder how you could have the Impudence to tell her, her Husband should die first, when aecording to the Rules of Astrology, here are all the Signs imaginable that she will die first.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>You are but a Novice in our Art, I perceive, to go by Rules of Astrology; I did so at first when I Practised, and then I could never get my Bread by it. Why, look you, suppose she does die first, she'll never tell I am a false Prophet after she's Dead surely: But if I had told her she should die first, and if it should not have happened so, her Husband being a sickly Man, then she would have done me a world of Mischief among the Neighbours, as now she may do me a great deal of Good: For most of those that come to us, if the Answer suit not their Fancy, go Home dissatisfied, calling us Rogues, Cheats, and telling their Neighbours, we can answer a Question no more than the Post, and then away to another, and another Astrologer, till they find one that pleases them: Then him they cry up, and fill his House full of Customers presently, though per<g ref="char:EOLhyphen"/>haps the first might speak truer than the last.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>You speak Cunningly, but not Honestly.</hi> But just at this word, we heard a man coming up in hast, so I whipt to my old place again, and thus I heard him bespeak the Do<g ref="char:EOLhyphen"/>ctor.</p>
+               </sp>
+               <sp>
+                  <speaker>Man.</speaker>
+                  <p>
+                     <hi>Sir, I understand you are an able Man to find Stolen Goods, and I am exceedingly troubled about a Silver Tankard, that was Stolen out of our House Yesterday: Pray, Sir, tell me who Stole it, and where is the Thief, that I may go with a Consta<g ref="char:EOLhyphen"/>ble and Nap him.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Dost.</speaker>
+                  <p>What, does your Master keep an Ale-house, Friend?</p>
+               </sp>
+               <sp>
+                  <speaker>Man.</speaker>
+                  <p>
+                     <hi>A Victualling House, and please you.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>And who do you suspect?</p>
+               </sp>
+               <sp>
+                  <speaker>Man.</speaker>
+                  <p>
+                     <hi>We cannot tell, for we ne're mist it till Night.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Stay here a while, Friend, I'll to my Study and do the best I can for you. Now, Friend, I have done my en<g ref="char:EOLhyphen"/>deavour for you: And I tell you, it will be a great deal of
+<pb n="10" facs="tcp:204306:10"/>trouble to get this Tankard again; <hi>Saturn</hi> being Retrograde in the second, afflicting the Lord of the second with a Par<g ref="char:EOLhyphen"/>tile Square.</p>
+               </sp>
+               <sp>
+                  <speaker>Man.</speaker>
+                  <p>
+                     <hi>Alas, Sir, I am undone then, my Master says I shall pay for it, if it be not got again.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Heark you, Friend, give me the Shilling for this Question.</p>
+               </sp>
+               <sp>
+                  <speaker>Man.</speaker>
+                  <p>
+                     <hi>Here it is, good Doctor.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Now I'll tell you, I have a Secret in Occult Philo<g ref="char:EOLhyphen"/>sophy to afflict a Thief, that ne're a man in <hi>England</hi> that knows but my self, so that the Thief shall either be Appre<g ref="char:EOLhyphen"/>hended, or make some Discovery of it himself; or it shall come out so one way or other, that you shall have your Tankard again. But this will be a great Charge to me, and I cannot afford to do it under Ten Shillings in Hand, and Ten Shillings more when you have the Tankard.</p>
+               </sp>
+               <sp>
+                  <speaker>Man.</speaker>
+                  <p>
+                     <hi>I have not so much Money, but I'll give you Five Shil<g ref="char:EOLhyphen"/>lings now in hand, here take it, and Ten Shillings more when the Tankard is found.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>'Tis indeed too little, but because you are a Ser<g ref="char:EOLhyphen"/>vant, I give you a Crown.</p>
+               </sp>
+               <sp>
+                  <speaker>Man.</speaker>
+                  <p>
+                     <hi>I thank you, Sir, pray do it as soon as you can. I live at the Sign of the</hi>—</p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Farewel Friend, ne're fear, sleep quiet. And now out came I again.</p>
+               </sp>
+               <sp>
+                  <speaker>Enquirer.</speaker>
+                  <p>
+                     <hi>Doctor, what have you done! Can any Mortal Man, or the Devil himself, perform what you have promised this Fellow?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>I don't know, nor don't care, I shall never trouble my Head no more about it.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>Do you think, that if the Tankard be never found, the Fellow won't come for his Five Shillings again?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>If he does, and make a great Noise about it, I'll give it him again, and there's an end of it; but it shall go hard if I get not then a Snip out of it, for I have Excuses ready, that if it had not been his fault, the Tankard had
+<pb n="11" facs="tcp:204306:10"/>been Discovered. But it often happens, that the Goods are found again one way or other, and then be sure I keep the Money in hand, if I do not get that promised. And then if the Goods be not found, half my Customers be so modest, they will not make any Disturbance about a Crown or Ten Shillings, but are glad if they get half their Money again, and go away Contented. So that I have two or three to one odds, when once I finger the Money, if I do not keep it.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>This is plain Knavery: And I wonder Justice can be so Blind, as not to find you out, and bring you to Condign Punishment.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Who! Man I have been Plagued two or three times, and bound over to the Sessions, but I'll never An<g ref="char:EOLhyphen"/>swer a Thievish Question again before Witness. But heark, I hear another coming up.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>Then I'll to my Apartment once more.</hi> And being there, I saw it was a Young Woman, indifferently well Clothed; and after a low Courtesie, thus she Accosts Mr. Astrologer.</p>
+               </sp>
+               <sp>
+                  <speaker>Maid.</speaker>
+                  <p>
+                     <hi>Pray, Sir, are you the Gentleman that resolves Que<g ref="char:EOLhyphen"/>stions?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Yes, Madam, at your Service.</p>
+               </sp>
+               <sp>
+                  <speaker>Maid.</speaker>
+                  <p>
+                     <hi>Then, Sir, I suppose you can tell what I came about.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Yes, yes, very well, but that's nothing to the matter, you must propound it your self; for if there be no Quaerent, then there is no Question, and then how can the Time be exactly taken, and if the Time be not taken true, another Sign will ascend, and the Figure will not be Radical, and then perhaps I may Err in my Judgment. Therefore you must propound your Question your self.</p>
+               </sp>
+               <sp>
+                  <speaker>Maid.</speaker>
+                  <p>
+                     <hi>Well, if I must, but I am cruelly asham'd.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Asham'd, for what! Such men as We, never di<g ref="char:EOLhyphen"/>vulge a Secret. Do not the best young Gentry of both Sexes, take our Advice concerning their Loves; and I
+<pb n="12" facs="tcp:204306:11"/>know already, your Business is something to that pur<g ref="char:EOLhyphen"/>pose.</p>
+               </sp>
+               <sp>
+                  <speaker>Maid.</speaker>
+                  <p>
+                     <hi>Indeed, I must confess it is so: But will the party Marry me, or no?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>How long is it since you saw him last?</p>
+               </sp>
+               <sp>
+                  <speaker>Maid.</speaker>
+                  <p>
+                     <hi>About a Month ago, and he used to come every Night, and pretend so much Love, that I thought he had been in Ear<g ref="char:EOLhyphen"/>nest, but now I am afraid he is quite gone.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>I'll step into my Study, and use the best of my Skill. (And upon his return, thus he goes on with her.) Fair Maid, I see he is off from you indeed, and without good Skill used, he'll hardly return.</p>
+               </sp>
+               <sp>
+                  <speaker>Maid.</speaker>
+                  <p>
+                     <hi>Don't you see by the Figure, Sir, none other coming nigh at hand?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>If they are not, I'll fetch them with a Vengeance, (that is to say) if you please. For as I may tell to you in private, Madam, I have a Secret, whereby I'll make that Person that you think you have lost now, come back, and marry you, or some other as good as he, and that quickly too: You are not the first by Forty, that I have helped so. But I must be paid for my Pains.</p>
+               </sp>
+               <sp>
+                  <speaker>Maid.</speaker>
+                  <p>
+                     <hi>And a great deal of Reason, Sir, such an Art can<g ref="char:EOLhyphen"/>not have too great a Reward. But can you indeed,</hi> Doctor, <hi>do as you promise?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Can I! Nay, if you are come upon your Questions and Commands, Iha' done w'ye.</p>
+               </sp>
+               <sp>
+                  <speaker>Maid.</speaker>
+                  <p>
+                     <hi>Good Sir, be not angry: What will you please to have for doing this for me?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Fair maid, you shall see, I will be very fair with you: Come again to morrow, when I have more Leisure, and give me a Guinea in hand, and Bond for the Payment of Ten more upon your Day of marriage; and then if there be but one Single man in the Land, in a short time he should be your Husband.</p>
+               </sp>
+               <sp>
+                  <speaker>Maid.</speaker>
+                  <p>
+                     <hi>You make me Laugh, Sir: Well, I shall long for to Morrow, and then be sure I'll come again. Here's for your
+<pb n="13" facs="tcp:204306:11"/>Pains at present, Sir, and I thank you heartily. Pray, Sir, remember to be at Home to Morrow.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>I shall be sure, <hi>Madam,</hi> farewel. These are my best Customers: A Pox on the Thievish Questions, there's nothing but Trouble and Vexation follows them. These Silly Souls now, if they are Chous'd of ne're so much, dare not tell on't.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>What did she give you,</hi> Doctor?</p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>But Half a Crown now: But I dare say, she'll hardly sleep till she's here again with her Guinea, and then for the Bond, and then for the Husband.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>Thou art one of the greatest Cheats in Nature: What Secret have you to get this Wench a Husband?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>This, I assure you, is my Secret of Secrets, and therefore if I tell it you, you must be sure never to Reveal it. When this Wench comes again to morrow, I'll know of her where she Lives, where her former Sweet-heart Lives, what her Parents are, what her Portion is, <hi>&amp;c.</hi> Then take her Guinea, and Bond, and discharge her, Or<g ref="char:EOLhyphen"/>dering her to call upon me once or twice a Week, to tell me how matters go forward: And if in a Twelve months time she happen to be married, I will make her cer<g ref="char:EOLhyphen"/>tainly believe I got her her Husband by my Art; and she'll no doubt get me the money by Hook or Crook, for fear it should come to her Husband's ear. But I must em<g ref="char:EOLhyphen"/>ploy my Wits about it too, as thus, To night, or to mor<g ref="char:EOLhyphen"/>row, or once a Week at least, comes one young Supersti<g ref="char:EOLhyphen"/>tious Fool, or other, to me, to know which is the best way for him to go seek a Wife, and what kind of Wo<g ref="char:EOLhyphen"/>man? Then I answer like an Oracle; You must go upon such a Point of the Compass, till you come to such a Place, or Street, and there nigh such a Sign lives a Gen<g ref="char:EOLhyphen"/>tlewoman, that if it be not your Fault, the Stars say, shall be your Wife. Then if he likes her, I'll prove Broker on both sides, and get money of him too: But if he likes her not, yet ten to one but that he marries
+<pb n="14" facs="tcp:204306:12"/>her, because he thinks, 'tis his Fortune, and that it can<g ref="char:EOLhyphen"/>not be avoided.</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>For shame,</hi> Doctor, <hi>leave off these Abominable Tricks, and betake your self to some Honost Employment.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Doct.</speaker>
+                  <p>Yes, and Starve in it, shall I?</p>
+               </sp>
+               <sp>
+                  <speaker>Enq.</speaker>
+                  <p>
+                     <hi>I will stay no longer with you, for fear the Devil should come for you, and do me a Mischief too, finding of me in your Company. So farewel, and Live better.</hi>
+                  </p>
+               </sp>
+            </div>
+            <div type="part">
+               <pb n="15" facs="tcp:204306:12"/>
+               <head>OF THE DEPTH OF THE SEA.</head>
+               <p>IT is hardly worth mentioning, the groundless Opi<g ref="char:EOLhyphen"/>nion some men hold, that in some places there is no bottom to the Sea, but all Water, from the very Superficies, to the Center of the Globe. For if they con<g ref="char:EOLhyphen"/>sider, me-thinks, they cannot chuse but acknowledge, that every Stone, or other Ponderous matter cast out of Ships in such places, must necessarily sink (if not obstru<g ref="char:EOLhyphen"/>cted) to the Center, and there resting immoveable, would long since have made a bottom, if there had been none in the Creation. There are Seamen that are generally of this Conceit, who prove it no better then by two or three places wrested from the Holy Scriptures, and by their own ineffectual Trials; which I shall not go about to answer,
+<pb n="16" facs="tcp:204306:13"/>but only tell them a Way, by which the next time they go to Sea, they may (if they please) Convince themselves, if I am not mistaken; and this is it. Joyn a piece of Wood to a Stone that is weighty enough to sink the Wood swiftly, after such a manner, that as soon as ever the Stone toucheth the bottom, they may by that Concussion be parted, and the Wood ascend again to the top of the Water. Then letting them down in a Calm Day, when the Ship hath little or no Drift, watch the coming up of the Wood; which you may take again into your Ship, by your Boat. Or otherwise (if you please) by keep<g ref="char:EOLhyphen"/>ing an exact Account of the time the Wood was under Water, you may give a good guess at the Depth. The benefit that might arise from such an Experiment, might perhaps in time, prove greater than the Pleasure of it. For though it might not certainly by your Depth deter<g ref="char:EOLhyphen"/>mine your Longitude, yet it would give you notice of your approach to the Shore, long before the Lead Line would serve your turn, and far easier too. It might also discover many Fishing Banks, not yet found out; and many more Benefits might arise from such a pleasant Ex<g ref="char:EOLhyphen"/>periment. You will Object, perhaps, That it is a very difficult matter, to make the Wood and Stone hold together all the way down, and part upon the touch of the Ground. I answer, No more difficult, than for a Mouse-Trap, or the Cock of a Gun, or any such small Engine, to go down with the touch of a Finger. I was just about setting down here Two or Three Figures, as they came into my Head; but I think it, on second Thoughts, needless: Because it is such an easie matter, that every one will be contriving a Gimerack in his Head, as he is reading this, and, perhaps, the worst of other mens, may be better than the best of mine, so I leave every one to his own Fancy. But although it be granted (you'll say) that there is Ground before you come to the Center of the Earth, yet who knows how nigh the Center it may be? And we may wait a long time for a piece of
+<pb n="17" facs="tcp:204306:13"/>Wood to sink Three Thousand miles or more, and come up again. I answer, I am ignorant indeed, how long the Wood would be sinking, and rising again; that must be often tried before in known Depths, and so work by Pro<g ref="char:EOLhyphen"/>portion for finding the unknown, and though perhaps the Stone may sink the swifter, the nigher it comes to its Center: Yet if the same weight, and shape of Stone and Wood be always used, although there may be a small mistake in the Depth, yet if it be always found the same, that Error will prejudice no man. But to come nigher an Answer, how deep the Sea may be, I cannot guess, nor no man else; but it looks as reasonable to me to judge it rather to be not above Four or Five miles in the deepest place, than Two or Three Thousand. There is no cer<g ref="char:EOLhyphen"/>tain way to know the truth, without Sounding it: But without offence, let me offer this uncertainty to you. From <hi>Scilly</hi> to <hi>Ʋshant</hi> is Thirty Leagues, or rather from <hi>Scilly</hi> to <hi>Ireland,</hi> it is Thirty Seven Leagues, or there<g ref="char:EOLhyphen"/>abouts, and the deepest Water between but Sixty Fa<g ref="char:EOLhyphen"/>thoms: Now admit from the Coast of <hi>Spain</hi> to <hi>Virginia,</hi> to be a Thousand Leagues, according to proportion, the deepest place between should be but One Thousand Six Hundred and Twenty Fathoms, not quite Two miles. Again, from <hi>Caboverd</hi> to the <hi>Islands,</hi> (bearing that name) is about One Hundred and Five Leagues, and in the very middle is a shallow Bank, whereon the <hi>Spaniards,</hi> and <hi>Por<g ref="char:EOLhyphen"/>tugueses,</hi> go Yearly a Fishing. As much, or more, might be said of the Bank of <hi>New-Found-Land,</hi> the <hi>Dogger-Bank,</hi> and others in the <hi>East-Indies.</hi> But now, if you Laugh at me for this way of Guessing, truly I have nothing to say, but I may deserve it.</p>
+               <p>The last Objection that I can think on, is the Drift of the Ship, and this, indeed, is the hardest to Answer: But at the worst, it may be useful in Calms, which often happen; and in moderate Gales of Wind, when the Boat may be kept out to Windward, watching the rising of the Wood, but without the Boat, a white piece of Wood at
+<pb n="18" facs="tcp:204306:14"/>its first bobbing out of the Water, I judge may be dis<g ref="char:EOLhyphen"/>cerned from the Ship at least half a mile. And now after all this, if you do not like it, 'tis but a Whim and so I leave it.</p>
+            </div>
+            <div type="part">
+               <head>OF TOBACCO.</head>
+               <p>IT is, me thinks, very Strange, that almost all the whole World, without Learning it of one another, should pitch upon the Smoaking of this Herb, as if it were absolutely as necessary to Mankind, as Meat and Drink. When the <hi>Portugals</hi> first Coasted <hi>Africa,</hi> all along to the Cape of <hi>Good-Hope,</hi> they found them Smoaking; when they had doubled the <hi>Cape,</hi> and proceeded on to the far<g ref="char:EOLhyphen"/>thest <hi>Indies,</hi> they found the Inhabitants still Smoaking. When the <hi>Spaniards</hi> discovered <hi>America,</hi> they found the same there, and we of late find the same throughout all the Northern Parts of <hi>America.</hi> And since the Custom hath been brought into these parts of <hi>Europe,</hi> I think we have not been behind hand with any of them; except it were in the using of Bows and Arrows, I know not any one thing (but what was absolutely necessary) that all Man<g ref="char:EOLhyphen"/>kind so generally agreed in. The <hi>Russians</hi> are Prohibited from it upon pain of Death, or extraordinary Fines at
+<pb n="19" facs="tcp:204306:14"/>least; and yet as I have heard some say, that have lived among them, Such as cannot plead a Bewitching Custom to it, will venture their Lives and Estates for a Pipe of Tobacco. Grapes grow neglected in many Parts of the World, where this Tobacco is greedily Cut up and Smoaked. It cannot be therefore for Intoxicating the Brain, to make Men forget the Cares and Miseries of this Life, that it is so generally taken; for Wine would be far better. Besides, the Wise, the Rich, need not such poor Remedies; and we find when Men come to Smoak much, it doth not at all offend the Brain then, and then 'tis they most desire it. Some men Chew it, some thrust it up their Noses, some give a Pipe a piece to their Chil<g ref="char:EOLhyphen"/>dren in the morning for their Breakfast. And many a man, when he has but a Penny in the World, and wants Bread, buys a Pennyworth of Tobacco in its stead. The Miser, that wishes men could live without Eating and Drinking, liberally lays out his Money for Tobacco, and carries it about him in a little Box, that will not hold above four Pipes, for fear any Body should beg a Pipeful of him.</p>
+               <p>What should I say any more for? 'Tis well known how all manner of People desire it. The Judge, the Priest, the Philosopher, the Fool, the Rich, the Poor, the Wisest of Men, and maddest in <hi>Bethlehem,</hi> though they differ much in most things else; yet all agree in Smoaking. I do not all this while speak against the Use of it; for I am sensible, it is in some things Praise-worthy; as that it makes a good Medicine, it helps Sore Eyes, it Condemeth the Spirits, it procures Sleep, it Imploys many Thousands in Plant<g ref="char:EOLhyphen"/>ing of it, in bringing it Home, and making it fit for the Pipe here at Home: But I ask the Natural Reason, Why men generally throughout the whole World, without Conversing with one another, betook themselves to this Plant? and not as well to any other of as great Virtues?</p>
+            </div>
+            <div type="part">
+               <pb n="20" facs="tcp:204306:15"/>
+               <head>OF EUROPES Being too Full of PEOPLE.</head>
+               <p>THE Absurdity I presume would not be very great, if a Man should say, That <hi>Europe</hi> is fuller of People than the Lands are well able to maintain, considering the Conveniencies of making mens Lives more Pleasant some men ought to have, others will have, and almost all do their Endeavour to obtain: And this Assertion may not prove Ridiculous, if we observe these following things.</p>
+               <p>First, The prudent Custom they have in our Neighbour<g ref="char:EOLhyphen"/>ing Nations, to keep Mankind from Multiplying too much, or at the best to keep some Families from growing too Numerous; lest all alike fall into Poverty. In sending the Younger Sons, or Brothers, to the Wars, where either they Die honourably, in the Defence of their Prince and Country; or by their Valour get Estates, and the Favour of their Prince, whereby they either Dignifie and Enrich the Family they came from, or Erect a new
+<pb n="21" facs="tcp:204306:15"/>one of their own, sometimes surpassing their Progeni<g ref="char:EOLhyphen"/>tors. And their Daughters, or Sisters, to the Nunneries, What hurt can be in that, if not forc'd? (As I cannot conceive many, if any, are so served,) There they have the benefit of early Devoting themselves to their Maker, void of the Karping Cares, and Troubles, without their Walls; being as it were already in the Borders of Hea<g ref="char:EOLhyphen"/>ven, singing Praises to their Maker with their whole Heart, Strength, and undisturbed Soul; like <hi>Mary,</hi> ha<g ref="char:EOLhyphen"/>ving chosen the better part. Alas! should these young Lads and Girls, have multiplied with Cook-wenches and Coach-men, their numerous Issue in a Hundred Years time, would have Eat up the very Name of the Fa<g ref="char:EOLhyphen"/>mily.</p>
+               <p>Another thing (howe're neglected here in <hi>England</hi>) is the keeping <hi>Lent.</hi> It cannot be otherwise: But it was a wise Institution, both for the Soul, (but that being be<g ref="char:EOLhyphen"/>yond my Sphear, I leave it to the Tribe of <hi>Levy,</hi> from whom I am to fetch my Duty, not my Whimsies) as well as for the Body. 'Tis kept in the Spring of the Year, when the Blood Ferments, and Flesh is then Unwholesom; and abstemious Diet on Pulse, Fruits, Herbs, and Fish, is a great deal better at that time for the Health of man: And being kept at the same time, when almost all Crea<g ref="char:EOLhyphen"/>tures on which we feed, are Breeding; Forty Days absti<g ref="char:EOLhyphen"/>nence at that time, cannot chuse but make Flesh abun<g ref="char:EOLhyphen"/>dantly more plenty all the Year after. But passing by the Increase of Navigation, the breeding able hardy Seamen, the vast Trade, and many other Commodities, that we in <hi>England</hi> enjoy, by our Neighbours keeping <hi>Lent,</hi> I only offer: That if <hi>Lent</hi> were not kept in <hi>Spain,</hi> and <hi>Italy,</hi> the Flesh that is bred there, would but poorly feed the Inha<g ref="char:EOLhyphen"/>bitants.</p>
+               <p>A third thing that we may observe, is, How many mise<g ref="char:EOLhyphen"/>rable People lie up and down, Begging and Starving; and I am not so uncharitable to think, that all do it out of Idleness, some there are, no doubt on't, that would
+<pb n="22" facs="tcp:204306:16"/>Work, and cannot get it. And although His Sacred Ma<g ref="char:EOLhyphen"/>jestie's Dominions of <hi>Great Brittain,</hi> be the most plenti<g ref="char:EOLhyphen"/>fully stored with Provisions, and all other things, that Nature requires for Human Subsistence, of any Country in <hi>Europe,</hi> yet even in this Garden of <hi>Eden,</hi> we find many poor and miserable People: And to avoid the being called, thought, or esteemed so, what a strong Busle is there made? The men Steal, and are Hanged; all for the sake of Bread and Bear. The Women walk the Streets in the dark Evenings, prostituting their Bodies and Souls to men and Devils, all for Meat and Drink, Money to pay the Doctor, and an old Crape Gown.</p>
+               <p>Again, We may observe how Frugality is cried up, as a Virtue equal to Temperance, and so exactly practised in Foreign parts; that a full fed Englishman when he Tra<g ref="char:EOLhyphen"/>vels, can hardly difference it from Penury.</p>
+               <p>All these things considered, it seems Rational to me, that most parts of <hi>Europe</hi> are too full of People. Less wise we are then Bees, who when they find their Hive too full, swarm, and go look out a new Habitation. What Brave, Spacious, and Fertile Countries has his Majesty in <hi>America!</hi> What a Beautiful Maiden Land, adorned with Gold (I speak of all <hi>America</hi> in general) Silver, Pearl, and Pre<g ref="char:EOLhyphen"/>tious Stones, is there! wishing to be enjoyed by the honest English Husbandman. How kindly hath she entertained such as have already gone over to Court her, correcting their Vices, which grew here of necessity, by her plenty.</p>
+               <p>The same Gracious King Protects her, and her Inhabi<g ref="char:EOLhyphen"/>tants: There are the same Laws, Religions, Government, every thing as it is here, except Plenty instead of cruel Want.</p>
+               <p>Not one Beggar is to be found in all <hi>Virginia, Mary<g ref="char:EOLhyphen"/>land, New-York, New-England,</hi> nor any of the Neighbour<g ref="char:EOLhyphen"/>ing Plantations. Think you not then that Poverty, and the evil Consequences of it, comes not upon Men as well by a Countries being Overstock'd, as by Luxury, Idle<g ref="char:EOLhyphen"/>ness, <hi>&amp;c.</hi> I conclude it is by all three, and more ways.</p>
+               <pb n="23" facs="tcp:204306:16"/>
+               <p>Some perhaps will say, <hi>Europe</hi> was as full of People Five Hundred Years ago, as it is now. I grant it. And when a Land is full, the Increase after that, must needs run over into other Countries, or Wars, Plagues, or Famines, in their own.</p>
+            </div>
+            <div type="part">
+               <head>CONCERNING THE PRECISE TIME Of Keeping the SABBATH.</head>
+               <p>THE time when the <hi>Jews</hi> began and ended their Sab<g ref="char:EOLhyphen"/>bath, and when I mean at what time of the Day the Primitive Christians their Lord's Day, is well known unto Divines; and I shall not be so bold to meddle with. My design is only a little to touch on the strange Humours of such, who begin their Sabbath on <hi>Saturday</hi> Night at Sun<g ref="char:EOLhyphen"/>set, and end it <hi>Sunday</hi> Night Sunset. Surely the Will of God is, that we should set apart the Seventh part of our Time for his Honour, and Worship; and not Tithe Mint and Rue, in so exactly nicking the time. For if so, why do not these men Consult some Mathematician to know exactly what time of their Day the Sun sets in <hi>Jerusalem,</hi> and they'll find it near Eight Hours before it does in <hi>New-England:</hi> So that they are at Work or Play, while their Friends in <hi>Jerasalem</hi> (if they have any there) are at Prayers for them. The same may be said of <hi>England,</hi> or
+<pb n="24" facs="tcp:204306:17"/>any other Place. But methinks, I hear Parson <hi>S.</hi>— calling me Fool, and telling me that the Lord's Day must begin when the Sun sets to us, whereever we be; for al<g ref="char:EOLhyphen"/>though the Commandment was given at Mount <hi>Sinai,</hi> yet the People were to keep it at <hi>Jerusalem,</hi> and take that pre<g ref="char:EOLhyphen"/>sent Sun-set for the beginning of the Sabbath, not that of Mount <hi>Sinai.</hi> Well Parson <hi>S.</hi>— if it be so, I will not stand with you for Cloudy Days, the Interposition of Hills between us, and our Horizon, nor such Trifles. But what shall I do when I am at Sea, in Latitude of 65 or 70 Degrees in the Summer time, when the Sun sets not at all? Or what shall the <hi>Russians,</hi> the <hi>Laplanders,</hi> the <hi>Islanders,</hi> and many other Christians in the World, that have some months in the Year all Day? Or what shall the Inhabi<g ref="char:EOLhyphen"/>tants under either Pole (if any there) where they have Six months Day, and Six months Night? Their Sabbath will come but once in seven Years, for when it comes, it will be a long one.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
